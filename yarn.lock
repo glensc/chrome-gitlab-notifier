@@ -460,6 +460,10 @@ minimist@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
+mithril-fake-xhr@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/mithril-fake-xhr/-/mithril-fake-xhr-0.1.3.tgz#4b5a4a7bfcefe04eb011db1e904980e15543e1ed"
+
 mithril@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mithril/-/mithril-1.1.0.tgz#1dbf9cc7843dd9701b7901d5abc4e219b15cf5de"

@@ -1,3 +1,8 @@
+try {
+  var m = require("mithril");
+} catch (e){
+}
+
 class GitLab {
   constructor(args = {}) {
     // remove end of "/"
@@ -50,12 +55,13 @@ class GitLab {
         // paging
         return this.loadProjectsBase(page + 1, all_projects)
       }
-    }).catch((e) => {
-      if(!this.projects) {
-        this.projects = [];
-      }
-      alert(e);
-      return Promise.reject()
+    // TODO
+    // }).catch((e) => {
+    //   if(!this.projects) {
+    //     this.projects = [];
+    //   }
+    //   alert(e);
+    //   return Promise.reject()
     });
   }
 
@@ -90,4 +96,9 @@ class GitLab {
       }
     })
   }
+}
+
+try {
+  module.exports = GitLab;
+} catch (e){
 }
